@@ -1,4 +1,4 @@
-import HomeScreen from './HomeScreen'
-import TestApiScreen from './TestApiScreen'
+import GetStarted from './GetStarted'
+import Splash from './Splash'
 
-export {HomeScreen, TestApiScreen}
+export {GetStarted, Splash}
