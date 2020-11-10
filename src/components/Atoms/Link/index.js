@@ -1,6 +1,6 @@
 import React from 'react'
 import {StyleSheet, Text, TouchableOpacity} from 'react-native'
-import {colors} from '../../../utils'
+import {colors, fonts} from '../../../utils'
 
 const Link = ({children, onPress, size, align}) => {
   return (
@@ -14,9 +14,8 @@ export default Link
 
 const styles = StyleSheet.create({
   children: (size, align) => ({
-    fontFamily: 'Nunito',
+    fontFamily: fonts.primary['400'],
     fontSize: size || 16,
-    fontWeight: '400',
     textDecorationLine: 'underline',
     color: colors.text.secondary,
     textAlign: align || 'left'

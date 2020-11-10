@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   },
   description: {
     fontSize: 20,
-    fontFamily: fonts.primary[700],
+    fontFamily: fonts.primary['600'],
     maxWidth: 153,
     marginVertical: 40,
     color: colors.text.default

@@ -1,11 +1,12 @@
 import React from 'react'
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native'
 import {colors} from '../../../utils'
+import IconOnly from './IconOnly'
 
-const Button = ({children, type, onPress}) => {
-  // if (type === 'back-dark') {
-  //   return <BackDark onPress={onPress}/>
-  // }
+const Button = ({children, type, onPress, icon}) => {
+  if (type === 'icon-only') {
+    return <IconOnly onPress={onPress} icon={icon} />
+  }
 
   return (
     <TouchableOpacity style={styles.container(type)} onPress={onPress}>

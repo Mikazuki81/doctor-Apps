@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     paddingTop: 11,
     paddingLeft: 12,
     paddingBottom: 12,
-    fontFamily: fonts.primary['900'],
+    fontFamily: fonts.primary['400'],
     fontSize: 16,
     color: colors.text['default']
   }
